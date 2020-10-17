@@ -7,6 +7,22 @@ public class ComparandoCadenas {
 	public String atributo1;
 	public String atributo2;
 
+	public String getAtributo1() {
+		return atributo1;
+	}
+
+	public void setAtributo1(String atributo1) {
+		this.atributo1 = atributo1;
+	}
+
+	public String getAtributo2() {
+		return atributo2;
+	}
+
+	public void setAtributo2(String atributo2) {
+		this.atributo2 = atributo2;
+	}
+
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -54,5 +70,6 @@ public class ComparandoCadenas {
 			System.out.println("Los objetos no son iguales");
 		}
 
+		sc.close();
 	}
 }
